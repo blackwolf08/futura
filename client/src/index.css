@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.navbar {
+  margin-bottom: 1rem;
+}
+
+
+.navbar li:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul.nav.navbar-nav li {
+  margin: 0 0.5rem;
+}
+
+.bg-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -111;
+  background-image: url('./images/undraw_fall_is_coming_dg3x.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-content {
+  background-color: rgba(255, 255, 255, 0.877);
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px grey;
+}
+
+.signup-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -111;
+  background-image: url('./images/undraw_Lighthouse_frb8.svg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.signup-content {
+  background-color: rgba(255, 255, 255, 0.856);
+  padding: 50px;
+  box-shadow: 0 0 8px grey;
+  border-radius: 5px;
+}
+
+.home-hero {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  text-shadow: 0 0 10px grey;
+}
+
+.my-form-container {
+  margin: auto;
+  display: flex;
+  background-color: lightgray;
+  height: 60vh;
+  width: 80vw;
+}
+
+.form {
+  height: 100%;
+  width: 100%;
+}
+
+.form form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.myframe {
+  width: 100%;
+  height: 2000px;
+  overflow: hidden;
+  border: none;
+}
