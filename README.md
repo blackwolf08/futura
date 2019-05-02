@@ -14,7 +14,7 @@ nodemon index.js
 ```
 PORT would be 2000
 
-#For client 
+### For client 
 Go to client/
 ```bash
 npm install
